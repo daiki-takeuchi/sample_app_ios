@@ -33,7 +33,8 @@ class DetailViewController: UIViewController {
         var myImageView: UIImageView!
 
         // 表示する画像を設定する.
-        let myImage = UIImage(named: "Olympic-logo.png")
+//        let myImage = UIImage(named: "Olympic-logo.png")
+        let myImage = UIImage(named: "logo.png")
         
         var width = myImage!.size.width
         var height = myImage!.size.height
