@@ -15,6 +15,8 @@
 		5DF602CB1B6CD3AF00CB45AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DF602CA1B6CD3AF00CB45AD /* Images.xcassets */; };
 		5DF602CE1B6CD3AF00CB45AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DF602CC1B6CD3AF00CB45AD /* LaunchScreen.xib */; };
 		5DF602DA1B6CD3AF00CB45AD /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF602D91B6CD3AF00CB45AD /* SampleTests.swift */; };
+		5DF602E61B6CD7A800CB45AD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF602E51B6CD7A800CB45AD /* logo.png */; };
+		5DF602EB1B6D2C3100CB45AD /* Olympic-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF602EA1B6D2C3100CB45AD /* Olympic-logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		5DF602D31B6CD3AF00CB45AD /* SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF602D81B6CD3AF00CB45AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DF602D91B6CD3AF00CB45AD /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
+		5DF602E51B6CD7A800CB45AD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../Desktop/logo.png; sourceTree = "<group>"; };
+		5DF602EA1B6D2C3100CB45AD /* Olympic-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Olympic-logo.png"; path = "../../../../../Desktop/Olympic-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		5DF602BB1B6CD3AF00CB45AD /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				5DF602E71B6CD7CB00CB45AD /* images */,
 				5DF602BE1B6CD3AF00CB45AD /* AppDelegate.swift */,
 				5DF602C31B6CD3AF00CB45AD /* MasterViewController.swift */,
 				5DF602C51B6CD3AF00CB45AD /* DetailViewController.swift */,
@@ -116,6 +121,15 @@
 				5DF602D81B6CD3AF00CB45AD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DF602E71B6CD7CB00CB45AD /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5DF602EA1B6D2C3100CB45AD /* Olympic-logo.png */,
+				5DF602E51B6CD7A800CB45AD /* logo.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,8 +212,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DF602E61B6CD7A800CB45AD /* logo.png in Resources */,
 				5DF602C91B6CD3AF00CB45AD /* Main.storyboard in Resources */,
 				5DF602CE1B6CD3AF00CB45AD /* LaunchScreen.xib in Resources */,
+				5DF602EB1B6D2C3100CB45AD /* Olympic-logo.png in Resources */,
 				5DF602CB1B6CD3AF00CB45AD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
