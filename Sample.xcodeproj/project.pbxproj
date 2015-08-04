@@ -42,8 +42,8 @@
 		5DF602D31B6CD3AF00CB45AD /* SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF602D81B6CD3AF00CB45AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DF602D91B6CD3AF00CB45AD /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
-		5DF602E51B6CD7A800CB45AD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../../Desktop/logo.png; sourceTree = "<group>"; };
-		5DF602EA1B6D2C3100CB45AD /* Olympic-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Olympic-logo.png"; path = "../../../../../Desktop/Olympic-logo.png"; sourceTree = "<group>"; };
+		5DF602E51B6CD7A800CB45AD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		5DF602EA1B6D2C3100CB45AD /* Olympic-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Olympic-logo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 		5DF602BB1B6CD3AF00CB45AD /* Sample */ = {
 			isa = PBXGroup;
 			children = (
-				5DF602E71B6CD7CB00CB45AD /* images */,
+				5DF602ED1B710F8400CB45AD /* Resources */,
 				5DF602BE1B6CD3AF00CB45AD /* AppDelegate.swift */,
 				5DF602C31B6CD3AF00CB45AD /* MasterViewController.swift */,
 				5DF602C51B6CD3AF00CB45AD /* DetailViewController.swift */,
@@ -123,13 +123,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5DF602E71B6CD7CB00CB45AD /* images */ = {
+		5DF602E71B6CD7CB00CB45AD /* Images */ = {
 			isa = PBXGroup;
 			children = (
 				5DF602EA1B6D2C3100CB45AD /* Olympic-logo.png */,
 				5DF602E51B6CD7A800CB45AD /* logo.png */,
 			);
-			name = images;
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5DF602ED1B710F8400CB45AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DF602E71B6CD7CB00CB45AD /* Images */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +443,7 @@
 				5DF602DF1B6CD3AF00CB45AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DF602E01B6CD3AF00CB45AD /* Build configuration list for PBXNativeTarget "SampleTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +452,7 @@
 				5DF602E21B6CD3AF00CB45AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
