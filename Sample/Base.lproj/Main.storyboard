@@ -45,7 +45,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="openPDF:" destination="JEX-9P-axG" eventType="touchDown" id="3Gf-mJ-oYJ"/>
+                                    <action selector="openPdfClick:" destination="JEX-9P-axG" eventType="touchDown" id="yGd-Kv-3zD"/>
                                 </connections>
                             </button>
                         </subviews>

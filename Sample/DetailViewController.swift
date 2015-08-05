@@ -12,7 +12,7 @@ class DetailViewController: UIViewController, UIWebViewDelegate {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
-    @IBAction func openPDF(sender: AnyObject) {
+    @IBAction func openPdfClick(sender: AnyObject) {
         
         var url:NSURL? = NSBundle.mainBundle().URLForResource("android_testing_doc.pdf", withExtension:nil)
         var pdf:CGPDFDocumentRef = CGPDFDocumentCreateWithURL(url);
