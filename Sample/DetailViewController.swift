@@ -8,9 +8,19 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController, UIWebViewDelegate {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
+
+    @IBAction func openPDF(sender: AnyObject) {
+        
+        var url:NSURL? = NSBundle.mainBundle().URLForResource("android_testing_doc.pdf", withExtension:nil)
+        var pdf:CGPDFDocumentRef = CGPDFDocumentCreateWithURL(url);
+        var rect = UIScreen.mainScreen().bounds;
+        var myview:PDFView = PDFView(frame:rect);
+        myview._pdfPage = CGPDFDocumentGetPage(pdf, 1)
+        self.view.addSubview(myview)
+    }
 
     var detailItem: AnyObject? {
         didSet {

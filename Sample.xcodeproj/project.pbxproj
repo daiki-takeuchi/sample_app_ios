@@ -17,6 +17,8 @@
 		5DF602DA1B6CD3AF00CB45AD /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF602D91B6CD3AF00CB45AD /* SampleTests.swift */; };
 		5DF602E61B6CD7A800CB45AD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF602E51B6CD7A800CB45AD /* logo.png */; };
 		5DF602EB1B6D2C3100CB45AD /* Olympic-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DF602EA1B6D2C3100CB45AD /* Olympic-logo.png */; };
+		5DF602F01B712ED100CB45AD /* android_testing_doc.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 5DF602EF1B712ED100CB45AD /* android_testing_doc.pdf */; };
+		5DF602F21B725F7E00CB45AD /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF602F11B725F7E00CB45AD /* PDFView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5DF602D91B6CD3AF00CB45AD /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
 		5DF602E51B6CD7A800CB45AD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		5DF602EA1B6D2C3100CB45AD /* Olympic-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Olympic-logo.png"; sourceTree = "<group>"; };
+		5DF602EF1B712ED100CB45AD /* android_testing_doc.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = android_testing_doc.pdf; sourceTree = "<group>"; };
+		5DF602F11B725F7E00CB45AD /* PDFView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 				5DF602CC1B6CD3AF00CB45AD /* LaunchScreen.xib */,
 				5DF602C01B6CD3AF00CB45AD /* Sample.xcdatamodeld */,
 				5DF602BC1B6CD3AF00CB45AD /* Supporting Files */,
+				5DF602F11B725F7E00CB45AD /* PDFView.swift */,
 			);
 			path = Sample;
 			sourceTree = "<group>";
@@ -135,9 +140,18 @@
 		5DF602ED1B710F8400CB45AD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5DF602EE1B712E4800CB45AD /* Pdf */,
 				5DF602E71B6CD7CB00CB45AD /* Images */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DF602EE1B712E4800CB45AD /* Pdf */ = {
+			isa = PBXGroup;
+			children = (
+				5DF602EF1B712ED100CB45AD /* android_testing_doc.pdf */,
+			);
+			path = Pdf;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +236,7 @@
 			files = (
 				5DF602E61B6CD7A800CB45AD /* logo.png in Resources */,
 				5DF602C91B6CD3AF00CB45AD /* Main.storyboard in Resources */,
+				5DF602F01B712ED100CB45AD /* android_testing_doc.pdf in Resources */,
 				5DF602CE1B6CD3AF00CB45AD /* LaunchScreen.xib in Resources */,
 				5DF602EB1B6D2C3100CB45AD /* Olympic-logo.png in Resources */,
 				5DF602CB1B6CD3AF00CB45AD /* Images.xcassets in Resources */,
@@ -245,6 +260,7 @@
 				5DF602BF1B6CD3AF00CB45AD /* AppDelegate.swift in Sources */,
 				5DF602C21B6CD3AF00CB45AD /* Sample.xcdatamodeld in Sources */,
 				5DF602C41B6CD3AF00CB45AD /* MasterViewController.swift in Sources */,
+				5DF602F21B725F7E00CB45AD /* PDFView.swift in Sources */,
 				5DF602C61B6CD3AF00CB45AD /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
