@@ -20,9 +20,15 @@ class PDFView: UIView{
 
         //PDFページのサイズを取得
         var pdfRect:CGRect = CGPDFPageGetBoxRect(_pdfPage, kCGPDFArtBox)
-        CGContextScaleCTM(context,
-            rect.size.width/pdfRect.size.width,
-            rect.size.height/pdfRect.size.height)
+
+        var ratio:CGFloat = 1
+        if pdfRect.size.height > pdfRect.size.width {
+            ratio = rect.size.width/pdfRect.size.width
+        } else {
+            ratio = rect.size.height/pdfRect.size.height
+        }
+        
+        CGContextScaleCTM(context,ratio,ratio)
         CGContextDrawPDFPage(context, _pdfPage)
     }
 }
